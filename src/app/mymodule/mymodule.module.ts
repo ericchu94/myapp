@@ -6,6 +6,7 @@ import { MymoduleComponent } from './mymodule.component';
   imports: [
     CommonModule
   ],
-  declarations: [MymoduleComponent]
+  declarations: [MymoduleComponent],
+  exports: [MymoduleComponent]
 })
 export class MymoduleModule { }
